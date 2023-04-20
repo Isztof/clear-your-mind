@@ -1,0 +1,238 @@
+body {
+  background-color: #337233;
+  min-height: 300vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.dropdown {
+  color: white;
+  background-color: #337233;
+}
+
+#nav-dropdown {
+  background-color: #337233;
+}
+
+.dropdown-menu {
+  background-color: #337233;
+}
+
+.dropdown-toggle {
+  color: white;
+}
+
+.dropdown-toggle::after {
+  color: white;
+}
+
+a.nav-link {
+  font-size: 25px;
+  font-weight: 550;
+}
+
+.me-auto {
+  display: flex;
+  justify-content: space-between;
+}
+
+#mainPage{
+  width: 70%;
+  margin: 0 auto;
+  min-height: 120vh;
+  padding-bottom: 400px;
+}
+
+#about {
+  font-size: 25px;
+  width: 70%;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 300px;
+}
+
+#callToAction {
+  margin-top: 70px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#fourStepModel {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  background-color: #337233;
+}
+
+.card {
+  float: left;
+  background-color: #337233 !important;
+  border: none;
+}
+
+.cardHeader {
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  font-size: x-large;
+}
+
+.valueProposition {
+  padding-top: 200px;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 310px;
+}
+
+
+.iconWrapper {
+  width: 50%;
+  float: left;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.iconWrapper2 {
+  width: 50%;
+  display: flex;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.textFieldRight {
+  width: 50%;
+  float: left;
+  color: white;
+  padding-left: 5%;
+  padding-right: 10%;
+  padding-top: 20px;
+}
+
+.desc {
+  font-size: 19px;
+  padding-bottom: 30px;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+#kontener {
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 72%;
+}
+
+@media (min-width: 800px) {
+  .search {
+    font-size: 2rem;
+  }
+}
+
+/*CSS for register and login button*/
+
+#registerLoginContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 18%;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+/*CSS for register UI*/
+
+#container {
+  justify-content: left;
+  margin: 0 auto;
+  width: 70%;
+
+}
+
+#formContainer {
+  width: 30%;
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+#buttonContainer2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+form {
+  color: white;
+}
+
+.form-group {
+  padding-top: 30px;
+}
+
+.mb-3{
+  padding-top: 30px;
+}
+
+/*CSS for login UI*/
+
+body {
+  display: flex;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+.auth-wrapper .form-control:focus {
+  border-color: white;
+  box-shadow: none;
+}
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+.custom-control-label {
+  font-weight: 400;
+}
+.forgot-password,
+.forgot-password a {
+  text-align: left;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #ffffff;
+  margin: 0;
+}
+.forgot-password a {
+  color: #ffffff;
+}
